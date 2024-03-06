@@ -1,0 +1,114 @@
+NAME
+    CAD::DWG::Version - Class which work with DWG file versions.
+
+DESCRIPTION
+    This class describes AutoCAD versions and it's identifiers.
+
+    List of identifiers is in Wikipedia article
+    <https://en.wikipedia.org/wiki/AutoCAD_version_history>.
+
+SYNOPSIS
+     use CAD::DWG::Version;
+
+     my $obj = CAD::DWG::Version->new;
+     my @dwg_identifiers = $obj->list_of_dwg_identifiers;
+
+METHODS
+  "new"
+     my $obj = CAD::DWG::Version->new;
+
+    Constructor.
+
+    Returns instance of object.
+
+  "list_of_dwg_identifiers"
+     my @dwg_identifiers = $obj->list_of_dwg_identifiers;
+
+    List DWG version identifiers sorted by publication. This identifiers are
+    used e.g. as magic string in DWG files or as $ACADVER in DXF files.
+
+    Returns array of identifiers.
+
+ERRORS
+     new():
+             From Class::Utils:
+                     Unknown parameter '%s'.
+
+EXAMPLE
+     use strict;
+     use warnings;
+
+     use Data::Printer;
+     use CAD::DWG::Version;
+
+     # Object.
+     my $obj = CAD::DWG::Version->new;
+
+     # Create image.
+     my @dwg_identifiers = $obj->list_of_dwg_identifiers;
+
+     # Print out type.
+     p @dwg_identifiers;
+
+     # Output:
+     # [
+     #     [0]  "MC0.0",
+     #     [1]  "AC1.2",
+     #     [2]  "AC1.3",
+     #     [3]  "AC1.40",
+     #     [4]  "AC1.50",
+     #     [5]  "AC2.10",
+     #     [6]  "AC2.21",
+     #     [7]  "AC2.22",
+     #     [8]  "AC1001",
+     #     [9]  "AC1002",
+     #     [10] "AC1003",
+     #     [11] "AC1004",
+     #     [12] "AC1006",
+     #     [13] "AC1009",
+     #     [14] "AC1010",
+     #     [15] "AC1011",
+     #     [16] "AC1012",
+     #     [17] "AC1013",
+     #     [18] "AC1014",
+     #     [19] "AC1500",
+     #     [20] "AC1015",
+     #     [21] "AC402a",
+     #     [22] "AC402b",
+     #     [23] "AC1018",
+     #     [24] "AC1021",
+     #     [25] "AC1024",
+     #     [26] "AC1027",
+     #     [27] "AC1032",
+     #     [28] "AC103-4"
+     # ]
+
+DEPENDENCIES
+    Class::Utils, Readonly.
+
+SEE ALSO
+    CAD::AutoCAD::Detect
+        Detect AutoCAD files through magic string.
+
+    CAD::AutoCAD::Version
+        Class which work with AutoCAD versions.
+
+    File::Find::Rule::DWG
+        Common rules for searching DWG files.
+
+REPOSITORY
+    <https://github.com/michal-josef-spacek/CAD-DWG-Version>
+
+AUTHOR
+    Michal Josef Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    © 2024 Michal Josef Špaček
+
+    BSD 2-Clause License
+
+VERSION
+    0.01
+
