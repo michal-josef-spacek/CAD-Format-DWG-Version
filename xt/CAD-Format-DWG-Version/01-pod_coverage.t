@@ -5,4 +5,4 @@ use Test::NoWarnings;
 use Test::Pod::Coverage 'tests' => 2;
 
 # Test.
-pod_coverage_ok('CAD::DWG::Version', 'CAD::DWG::Version is covered.');
+pod_coverage_ok('CAD::Format::DWG::Version', 'CAD::Format::DWG::Version is covered.');

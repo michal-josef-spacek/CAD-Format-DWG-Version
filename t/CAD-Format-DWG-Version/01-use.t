@@ -7,8 +7,8 @@ use Test::NoWarnings;
 BEGIN {
 
 	# Test.
-	use_ok('CAD::DWG::Version');
+	use_ok('CAD::Format::DWG::Version');
 }
 
 # Test.
-require_ok('CAD::DWG::Version');
+require_ok('CAD::Format::DWG::Version');

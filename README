@@ -1,5 +1,5 @@
 NAME
-    CAD::DWG::Version - Class which work with DWG file versions.
+    CAD::Format::DWG::Version - Class which work with DWG file versions.
 
 DESCRIPTION
     This class describes AutoCAD versions and it's identifiers.
@@ -8,14 +8,14 @@ DESCRIPTION
     <https://en.wikipedia.org/wiki/AutoCAD_version_history>.
 
 SYNOPSIS
-     use CAD::DWG::Version;
+     use CAD::Format::DWG::Version;
 
-     my $obj = CAD::DWG::Version->new;
+     my $obj = CAD::Format::DWG::Version->new;
      my @dwg_identifiers = $obj->list_of_dwg_identifiers;
 
 METHODS
   "new"
-     my $obj = CAD::DWG::Version->new;
+     my $obj = CAD::Format::DWG::Version->new;
 
     Constructor.
 
@@ -39,10 +39,10 @@ EXAMPLE
      use warnings;
 
      use Data::Printer;
-     use CAD::DWG::Version;
+     use CAD::Format::DWG::Version;
 
      # Object.
-     my $obj = CAD::DWG::Version->new;
+     my $obj = CAD::Format::DWG::Version->new;
 
      # Create image.
      my @dwg_identifiers = $obj->list_of_dwg_identifiers;
@@ -94,7 +94,7 @@ SEE ALSO
         Common rules for searching DWG files.
 
 REPOSITORY
-    <https://github.com/michal-josef-spacek/CAD-DWG-Version>
+    <https://github.com/michal-josef-spacek/CAD-Format-DWG-Version>
 
 AUTHOR
     Michal Josef Špaček <mailto:skim@cpan.org>

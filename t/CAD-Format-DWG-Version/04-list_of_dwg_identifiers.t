@@ -1,12 +1,12 @@
 use strict;
 use warnings;
 
-use CAD::DWG::Version;
+use CAD::Format::DWG::Version;
 use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-my $obj = CAD::DWG::Version->new;
+my $obj = CAD::Format::DWG::Version->new;
 my @ret = $obj->list_of_dwg_identifiers;
 is_deeply(
 	\@ret,

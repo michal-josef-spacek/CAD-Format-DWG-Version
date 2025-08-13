@@ -4,10 +4,10 @@ use strict;
 use warnings;
 
 use Data::Printer;
-use CAD::DWG::Version;
+use CAD::Format::DWG::Version;
 
 # Object.
-my $obj = CAD::DWG::Version->new;
+my $obj = CAD::Format::DWG::Version->new;
 
 # Create image.
 my @dwg_identifiers = $obj->list_of_dwg_identifiers;

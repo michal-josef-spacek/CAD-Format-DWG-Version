@@ -1,4 +1,4 @@
-package CAD::DWG::Version;
+package CAD::Format::DWG::Version;
 
 use strict;
 use warnings;
@@ -72,7 +72,7 @@ __END__
 
 =head1 NAME
 
-CAD::DWG::Version - Class which work with DWG file versions.
+CAD::Format::DWG::Version - Class which work with DWG file versions.
 
 =head1 DESCRIPTION
 
@@ -82,16 +82,16 @@ List of identifiers is in L<Wikipedia article|https://en.wikipedia.org/wiki/Auto
 
 =head1 SYNOPSIS
 
- use CAD::DWG::Version;
+ use CAD::Format::DWG::Version;
 
- my $obj = CAD::DWG::Version->new;
+ my $obj = CAD::Format::DWG::Version->new;
  my @dwg_identifiers = $obj->list_of_dwg_identifiers;
 
 =head1 METHODS
 
 =head2 C<new>
 
- my $obj = CAD::DWG::Version->new;
+ my $obj = CAD::Format::DWG::Version->new;
 
 Constructor.
 
@@ -121,10 +121,10 @@ Returns array of identifiers.
  use warnings;
 
  use Data::Printer;
- use CAD::DWG::Version;
+ use CAD::Format::DWG::Version;
 
  # Object.
- my $obj = CAD::DWG::Version->new;
+ my $obj = CAD::Format::DWG::Version->new;
 
  # Create image.
  my @dwg_identifiers = $obj->list_of_dwg_identifiers;
@@ -187,7 +187,7 @@ Common rules for searching DWG files.
 
 =head1 REPOSITORY
 
-L<https://github.com/michal-josef-spacek/CAD-DWG-Version>
+L<https://github.com/michal-josef-spacek/CAD-Format-DWG-Version>
 
 =head1 AUTHOR
 
