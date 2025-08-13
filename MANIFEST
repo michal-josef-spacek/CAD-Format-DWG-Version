@@ -16,10 +16,10 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
-t/CAD-DWG-Version/01-use.t
-t/CAD-DWG-Version/02-version.t
-t/CAD-DWG-Version/03-new.t
-t/CAD-DWG-Version/04-list_of_dwg_identifiers.t
+t/CAD-Format-DWG-Version/01-use.t
+t/CAD-Format-DWG-Version/02-version.t
+t/CAD-Format-DWG-Version/03-new.t
+t/CAD-Format-DWG-Version/04-list_of_dwg_identifiers.t
 Version.pm
-xt/CAD-DWG-Version/01-pod_coverage.t
-xt/CAD-DWG-Version/02-pod.t
+xt/CAD-Format-DWG-Version/01-pod_coverage.t
+xt/CAD-Format-DWG-Version/02-pod.t
