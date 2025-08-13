@@ -80,6 +80,8 @@ This class describes AutoCAD DWG format versions and it's identifiers.
 
 List of identifiers is in L<Wikipedia article|https://en.wikipedia.org/wiki/AutoCAD_version_history>.
 
+This Perl class replaces L<CAD::AutoCAD::Version>@0.06, which has the wrong name.
+
 =head1 SYNOPSIS
 
  use CAD::Format::DWG::Version;

@@ -7,6 +7,9 @@ DESCRIPTION
     List of identifiers is in Wikipedia article
     <https://en.wikipedia.org/wiki/AutoCAD_version_history>.
 
+    This Perl class replaces CAD::AutoCAD::Version@0.06, which has the wrong
+    name.
+
 SYNOPSIS
      use CAD::Format::DWG::Version;
 
