@@ -3,8 +3,6 @@ abstract: 'Class which work with DWG file versions.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
-  English: 0
-  Error::Pure::Utils: 0
   ExtUtils::MakeMaker: 6.59
   Test::More: 0
   Test::NoWarnings: 0

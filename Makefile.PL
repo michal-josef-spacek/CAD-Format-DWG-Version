@@ -20,8 +20,6 @@ readme_from 'Version.pm';
 recursive_author_tests('xt');
 requires 'Class::Utils' => 0.03;
 requires 'Readonly' => 0;
-test_requires 'English' => 0;
-test_requires 'Error::Pure::Utils' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/CAD-Format-DWG-Version/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/CAD-Format-DWG-Version';
 resources 'repository' => 'git://github.com/michal-josef-spacek/CAD-Format-DWG-Version';
