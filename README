@@ -1,5 +1,5 @@
 NAME
-    CAD::Format::DWG::Version - Class which work with DWG file versions.
+    CAD::Format::DWG::Version - Class for work with DWG file versions.
 
 DESCRIPTION
     This class describes AutoCAD versions and it's identifiers.

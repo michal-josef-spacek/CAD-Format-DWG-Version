@@ -1,5 +1,5 @@
 ---
-abstract: 'Class which work with DWG file versions.'
+abstract: 'Class for work with DWG file versions.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:

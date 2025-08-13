@@ -72,7 +72,7 @@ __END__
 
 =head1 NAME
 
-CAD::Format::DWG::Version - Class which work with DWG file versions.
+CAD::Format::DWG::Version - Class for work with DWG file versions.
 
 =head1 DESCRIPTION
 
