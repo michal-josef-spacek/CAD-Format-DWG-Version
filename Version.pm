@@ -38,7 +38,7 @@ Readonly::Hash my %DWGVER => (
 	'AC103-4' => { 'name' => 'DWG 2022 beta', 'order' => 28 },
 );
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -205,6 +205,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
