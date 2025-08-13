@@ -76,7 +76,7 @@ CAD::Format::DWG::Version - Class for work with DWG file versions.
 
 =head1 DESCRIPTION
 
-This class describes AutoCAD versions and it's identifiers.
+This class describes AutoCAD DWG format versions and it's identifiers.
 
 List of identifiers is in L<Wikipedia article|https://en.wikipedia.org/wiki/AutoCAD_version_history>.
 
